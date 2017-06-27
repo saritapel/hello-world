@@ -1,10 +1,22 @@
 .student-a {
-    
+    background-color: #ccc;
+    width: 40%;
+text-align: center;
+}
+
+.student-a h1 {
+
+font-family: Arial, Helvetica, sans-serif;
+color: red;
+font-size: 2em;
+align-content: center;
 }
 
 
+
+
 .student-b {
-    box-sizing: border-box;
+       box-sizing: border-box;
     border: 1px solid black;
     box-shadow: 10px 5px 15px 5px gray;
     min-height: 50px;
@@ -22,3 +34,8 @@
     clear: both;
     display: table;
 }
+
+    
+
+
+
