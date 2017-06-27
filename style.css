@@ -4,5 +4,21 @@
 
 
 .student-b {
-    
+    box-sizing: border-box;
+    border: 1px solid black;
+    box-shadow: 10px 5px 15px 5px gray;
+    min-height: 50px;
+    max-width:550px;
+    padding:5px;
+}
+
+.student-b img{
+  float: left;
+  padding-right:  10px;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
 }
